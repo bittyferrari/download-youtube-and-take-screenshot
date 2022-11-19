@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "download": "node ./src/download.js",
+    "screenshot": "node ./src/screenshot.js",
+    "delete": "node ./src/delete.js"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "get-video-duration": "^4.1.0",
+    "ytdl-core": "^4.11.2"
+  }
+}
